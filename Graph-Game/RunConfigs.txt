@@ -1,0 +1,77 @@
+  <component name="RunManager" selected="Application.GUIrun1">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUIrun1" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pb.Gui.PathbuilderGUI" />
+      <module name="Project2" />
+      <option name="PROGRAM_PARAMETERS" value="configFiles/basic/config.txt" />
+      <option name="VM_PARAMETERS" value="--module-path /Library/Java/Extensions/javafx-sdk-12.0.2/lib:lib --add-modules javafx.base,javafx.controls,javafx.graphics,javafx.swing -cp lib/Pathbuilder.jar:out/production/Project2" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part1Test1" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pb.Tests.Part1Test" />
+      <module name="Project2" />
+      <option name="PROGRAM_PARAMETERS" value="configFiles/part1/part1Test1.txt Stu1234" />
+      <option name="VM_PARAMETERS" value="-cp lib/Pathbuilder.jar:out/production/Project2" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stu1" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pb.Gui.PathbuilderGUI" />
+      <module name="Project2" />
+      <option name="PROGRAM_PARAMETERS" value="configFiles/basic/config1.txt" />
+      <option name="VM_PARAMETERS" value="--module-path /Library/Java/Extensions/javafx-sdk-12.0.2/lib:lib --add-modules javafx.base,javafx.controls,javafx.graphics,javafx.swing -cp lib/Pathbuilder.jar:out/production/Project2" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GUIrun1" />
+      <item itemvalue="Application.stu1" />
+      <item itemvalue="Application.Part1Test1" />
+    </list>
+  </component>
